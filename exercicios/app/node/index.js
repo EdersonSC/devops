@@ -45,7 +45,7 @@ app.get('/',function(req,res){
 		"Data":"",
 		"Hostname": process.env.HOSTNAME
 	};
-	data["Data"] = "Welcome to Jon's API";
+	data["Data"] = "Bem vindo aos Estudos de API ";
 	res.json(data);
 	console.log(data);
 });
